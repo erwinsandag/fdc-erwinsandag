@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Define the path to the input data file
-input_file_path = "data/input_data.xlsx"
+input_file_path = "data/restaurant_data.xlsx"
 
 # Read the input data into a pandas DataFrame
 data = pd.read_excel(input_file_path)
