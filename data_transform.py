@@ -9,7 +9,7 @@ data = pd.read_excel(input_file_path)
 # Perform data transformation tasks (e.g., cleansing, fixing typos, mapping column names)
 
 # Drop rows where the name or ingredients are not available
-data = data.dropna(subset=['Name', 'Ingredients'])
+data = data.dropna(subset=['Product Name', 'Ingredients on Product Page'])
 
 # Fix any typos in the data fields (if needed)
 # Example: data['Column'] = data['Column'].str.replace('typo', 'corrected_value')
